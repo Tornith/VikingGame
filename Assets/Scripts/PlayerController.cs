@@ -77,4 +77,9 @@ public class PlayerController : MonoBehaviour
         // Add a rolling force to the ship to make it look more realistic
         _rb.AddRelativeTorque(Vector3.forward * (Mathf.Sin(Time.time * shipRollingSpeed) * shipRollingAmount));
     }
+    
+    public void KnockBack(Vector3 direction, float force)
+    {
+        _rb.AddForce(direction * force, ForceMode.Impulse);
+    }
 }
