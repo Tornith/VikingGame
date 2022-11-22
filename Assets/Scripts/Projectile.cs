@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ArrowProjectile : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
     // The starting point of the arrow
     public Vector3 start;
@@ -11,11 +11,13 @@ public class ArrowProjectile : MonoBehaviour
     public Vector3 end;
     // The peak height of the arrow, happens at the midpoint
     public float archHeight = 1f;
+    // The Projectile damage
+    public float damage = 1f;
     // The speed of the arrow
     public float speed = 0.01f;
     // The time the arrow takes to despawn after hitting the target
     public float despawnTime = 0.5f;
-    
+
     // Percentage of the distance traveled from start to end
     private float _distanceTravelled;
     private bool _isDespawning;
@@ -54,8 +56,21 @@ public class ArrowProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // If the collision is in the first frame, ignore it
         if (_hasCollided) return;
         _hasCollided = true;
+        // If the arrow hits a target that has a health component, deal damage and destroy immediately
+        var health = other.GetComponent<Health>();
+        if (health != null)
+        {
+            health.TakeDamage(damage);
+            Destroy(gameObject);
+        }
+        // If the projectile hits water destroy it immediately
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            Destroy(gameObject);
+        }
         Destroy(gameObject, despawnTime);
         _isDespawning = true;
     }
