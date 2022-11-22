@@ -8,14 +8,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Cursor
   - Water
   - UI
   - Player
   - Environment
   - Terrain
   - Fadeout
-  - 
+  - Projectiles
   - 
   - 
   - 
