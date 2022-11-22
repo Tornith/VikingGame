@@ -1,5 +1,5 @@
 {
-    "name": "InputActions",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "Player",
@@ -9,6 +9,15 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "ff767b55-cec1-42a5-ad6b-acd87a7a6f0e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "44964b9f-4f48-4d51-ad74-95a064b9f142",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -125,6 +134,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "12a8719b-30e2-4bc6-9981-ab041f84fe94",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
