@@ -47,7 +47,7 @@ public class Projectile : MonoBehaviour
     private Vector3 CalculatePosition(float t)
     {
         var distance = Vector3.Distance(start, end);
-        var actualArchHeight = archHeight * distance * distance * 0.01f;
+        var actualArchHeight = archHeight * distance * 0.1f;
         var midpoint = ((start + end) / 2f) + (Vector3.up * actualArchHeight);
         var a = LerpWithoutClamp(start, midpoint, t);
         var b = LerpWithoutClamp(midpoint, end, t);

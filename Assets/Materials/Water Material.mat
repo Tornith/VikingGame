@@ -86,7 +86,7 @@ Material:
     - _Foam_Strength: 1
     - _Foam_Tile: 0.04
     - _Normal_Strength: 0.3
-    - _Normal_Tile: 0.02
+    - _Normal_Tile: 0.03
     - _OpaqueCullMode: 2
     - _Pan_Speed: 1
     - _RayTracing: 0

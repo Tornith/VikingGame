@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 84546528181157806}
   - component: {fileID: 84546528181157804}
   - component: {fileID: 84546528117822845}
+  - component: {fileID: 84546528117822851}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -51,7 +52,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 2
   m_Drag: 0.5
-  m_AngularDrag: 0.1
+  m_AngularDrag: 0.35
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 2
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterSurface: {fileID: 0}
   underWaterDrag: 0.5
-  underWaterAngularDrag: 0.2
+  underWaterAngularDrag: 0.5
   airDrag: 0.1
   airAngularDrag: 0.05
   waterDensity: 350
@@ -158,6 +159,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
+--- !u!114 &84546528117822851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84546528181157813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0199a1b141e34d47b8ffdebe6de34e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 9214089949663600595, guid: 19b1b0ef1bcae884da6b137baa68175e, type: 3}
+  arrowSpawn: {fileID: 2367206422655867690}
+  cursor: {fileID: 0}
+  projectileHolder: {fileID: 0}
+  arrowSpeed: 40
+  arrowCount: 8
+  arrowSpread: 5
+  arrowSpreadDistanceIncrease: 0.02
+  arrowSpreadTime: 0.025
+  arrowArcHeight: 3.5
+  arrowDespawnTime: 2
+  shootingCooldown: 1
 --- !u!1 &84546528613231172
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84546528613231172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -213,7 +238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9151220450570132230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
