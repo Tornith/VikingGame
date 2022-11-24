@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 84546528181157804}
   - component: {fileID: 84546528117822845}
   - component: {fileID: 84546528117822851}
+  - component: {fileID: 84546528117822857}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -87,8 +88,8 @@ MonoBehaviour:
   waterSurface: {fileID: 0}
   underWaterDrag: 0.5
   underWaterAngularDrag: 0.5
-  airDrag: 0.1
-  airAngularDrag: 0.05
+  airDrag: 5
+  airAngularDrag: 2
   waterDensity: 350
 --- !u!114 &84546528181157806
 MonoBehaviour:
@@ -175,14 +176,30 @@ MonoBehaviour:
   arrowSpawn: {fileID: 2367206422655867690}
   cursor: {fileID: 0}
   projectileHolder: {fileID: 0}
-  arrowSpeed: 40
+  arrowSpeed: 30
   arrowCount: 8
   arrowSpread: 5
   arrowSpreadDistanceIncrease: 0.02
-  arrowSpreadTime: 0.025
+  arrowSpreadTime: 0.05
   arrowArcHeight: 3.5
   arrowDespawnTime: 2
   shootingCooldown: 1
+--- !u!208 &84546528117822857
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84546528181157813}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 3, y: 1, z: 3}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.1
 --- !u!1 &84546528613231172
 GameObject:
   m_ObjectHideFlags: 0

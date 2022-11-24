@@ -8,6 +8,7 @@ namespace Enemy
     {
         public float viewDistance = 10f;
         public float attackDistance = 5f;
+        public float wanderDistance = 10f;
         public GameObject player;
         
         protected Health health;
@@ -26,6 +27,8 @@ namespace Enemy
             Gizmos.DrawWireSphere(transform.position, viewDistance);
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, attackDistance);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transform.position, wanderDistance);
         }
     }
 }
