@@ -25,6 +25,12 @@ public class PlayerShooting : MonoBehaviour
     private void Start()
     {
         _isprojectileHolderNotNull = projectileHolder != null;
+        
+        // If the projectile holder is null, find it in the scene
+        if (!_isprojectileHolderNotNull)
+        {
+            projectileHolder = GameObject.Find("Projectile Holder");
+        }
     }
 
     private void FixedUpdate()

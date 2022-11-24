@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 7008.949, g: 4430, b: 3298.8281, a: 1}
+  m_IndirectSpecularColor: {r: 6404.3857, g: 3769.2227, b: 2348.6133, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -323,7 +323,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8191
+    m_Bits: 40959
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -491,6 +491,11 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!1 &1132946539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1132946539, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+  m_PrefabInstance: {fileID: 1387815522367543887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1438813184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5037424601086177984, guid: a995b117cc314094ba88d626759f64cc, type: 3}
@@ -726,14 +731,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1132946539, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: m_Name
+      value: Loot Holder
+      objectReference: {fileID: 0}
     - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 779321594}
     - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootHolder
+      value: 
+      objectReference: {fileID: 1132946539}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
       propertyPath: projectileHolder
       value: 
       objectReference: {fileID: 1998016747}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[0].amount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[0].prefab
+      value: 
+      objectReference: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[1].amount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[1].prefab
+      value: 
+      objectReference: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    - target: {fileID: 337639143818570274, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[1].weight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1339583307987958821, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
       propertyPath: player
       value: 
@@ -742,6 +779,42 @@ PrefabInstance:
       propertyPath: projectileHolder
       value: 
       objectReference: {fileID: 1998016747}
+    - target: {fileID: 1339583307987958821, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339583307987958821, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[0].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339583307987958821, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[0].prefab
+      value: 
+      objectReference: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    - target: {fileID: 1339583307987958821, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: lootTable.Array.data[0].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387815521447142927, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387815522641267382, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: magnet
+      value: 
+      objectReference: {fileID: 779321594}
+    - target: {fileID: 1387815522641267382, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: magnetForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387815522641267382, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: magnetRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387815522641267387, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
+      propertyPath: waterSurface
+      value: 
+      objectReference: {fileID: 1813973666}
     - target: {fileID: 2375104635571865567, guid: d42d1a940f22b9d4da6ab384cc9b3983, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -929,6 +1002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cursor
       objectReference: {fileID: 0}
+    - target: {fileID: 5037424601086177987, guid: a995b117cc314094ba88d626759f64cc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 87ec3553fc88f1d49b0cdc50088ce11a, type: 2}
     - target: {fileID: 5037424601086177989, guid: a995b117cc314094ba88d626759f64cc, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -984,7 +1061,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5502742851713372744, guid: d68ca60d42440134cbd261d4619cebd7, type: 3}
       propertyPath: m_Name
-      value: Projectiles
+      value: Projectile Holder
       objectReference: {fileID: 0}
     - target: {fileID: 5502742851713372751, guid: d68ca60d42440134cbd261d4619cebd7, type: 3}
       propertyPath: m_RootOrder
@@ -1126,6 +1203,10 @@ PrefabInstance:
     - target: {fileID: 7547267487769705175, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
       propertyPath: m_Name
       value: Game UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348739762094833428, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}

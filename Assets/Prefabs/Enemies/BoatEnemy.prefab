@@ -253,6 +253,9 @@ MonoBehaviour:
   attackDistance: 40
   wanderDistance: 30
   player: {fileID: 0}
+  lootTable: []
+  lootHolder: {fileID: 0}
+  lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: cf93db1c489b1694a8a40f699ea11e81, type: 3}
   projectileHolder: {fileID: 0}
   firePoint: {fileID: 803231740502967649}
@@ -263,6 +266,7 @@ MonoBehaviour:
   fireCooldown: 3
   projectileAmount: 5
   projectileTimeSpread: 0.05
+  updateDistance: 2
 --- !u!114 &803231741501940163
 MonoBehaviour:
   m_ObjectHideFlags: 0

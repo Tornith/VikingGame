@@ -164,7 +164,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewDistance: 50
   attackDistance: 30
+  wanderDistance: 10
   player: {fileID: 0}
+  lootTable: []
+  lootHolder: {fileID: 0}
+  lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: a6cff558fe35b454b8999b1dd0b68338, type: 3}
   projectileHolder: {fileID: 0}
   firePoint: {fileID: 2074097694276340034}
