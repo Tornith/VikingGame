@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd030abec71bfe54f95ab42b73a725d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldAmount: 0
 --- !u!114 &3412566175883959577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,4 +59,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 0}
+  gameManager: {fileID: 3412566175883959579}
   healthText: {fileID: 0}
+  goldText: {fileID: 0}

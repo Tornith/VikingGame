@@ -16,6 +16,10 @@ public class Buoyancy : MonoBehaviour
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        if (waterSurface == null)
+        {
+            waterSurface = GameObject.FindWithTag("Water").transform;
+        }
     }
 
     private void FixedUpdate()

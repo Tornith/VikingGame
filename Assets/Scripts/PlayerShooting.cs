@@ -29,7 +29,7 @@ public class PlayerShooting : MonoBehaviour
         // If the projectile holder is null, find it in the scene
         if (!_isprojectileHolderNotNull)
         {
-            projectileHolder = GameObject.Find("Projectile Holder");
+            projectileHolder = GameObject.FindWithTag("Projectile Holder");
         }
     }
 

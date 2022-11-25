@@ -42,7 +42,7 @@ namespace Enemy
             // If loot holder is not defined, find it
             if (lootHolder == null)
             {
-                lootHolder = GameObject.Find("Loot Holder");
+                lootHolder = GameObject.FindWithTag("Loot Holder");
             }
         }
         

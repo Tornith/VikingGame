@@ -162,11 +162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8edaf789a0f306543896456e9c1f0b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewDistance: 50
-  attackDistance: 30
+  viewDistance: 40
+  attackDistance: 27.5
   wanderDistance: 10
   player: {fileID: 0}
-  lootTable: []
+  lootTable:
+  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    weight: 0.8
+    amount: 1
+  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    weight: 0.2
+    amount: 2
   lootHolder: {fileID: 0}
   lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: a6cff558fe35b454b8999b1dd0b68338, type: 3}

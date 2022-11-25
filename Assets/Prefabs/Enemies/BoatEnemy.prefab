@@ -253,13 +253,19 @@ MonoBehaviour:
   attackDistance: 40
   wanderDistance: 30
   player: {fileID: 0}
-  lootTable: []
+  lootTable:
+  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    weight: 0.75
+    amount: 2
+  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
+    weight: 0.25
+    amount: 3
   lootHolder: {fileID: 0}
   lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: cf93db1c489b1694a8a40f699ea11e81, type: 3}
   projectileHolder: {fileID: 0}
   firePoint: {fileID: 803231740502967649}
-  projectileDamage: 0
+  projectileDamage: 0.5
   projectileSpeed: 30
   projectileSpread: 1
   projectileArch: 2

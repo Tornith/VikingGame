@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Water
+  - Loot Holder
+  - Projectile Holder
+  - Enemy Holder
   layers:
   - Default
   - TransparentFX

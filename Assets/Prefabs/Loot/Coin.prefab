@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2032175974613770684}
   - component: {fileID: 2032175974613770681}
   - component: {fileID: 2032175974613770682}
-  - component: {fileID: 2032175974613770683}
   m_Layer: 15
   m_Name: Highlight
   m_TagString: Untagged
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2032175974613770683
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032175974613770685}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2032175975831237741
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032175975831237740}
   - component: {fileID: 2032175975831237737}
+  - component: {fileID: 4019521414337182726}
   - component: {fileID: 2032175975831237738}
   - component: {fileID: 2032175975831237739}
   - component: {fileID: 2032175975831237736}
@@ -148,6 +135,19 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.75
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &4019521414337182726
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032175975831237741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2032175975831237738
 Rigidbody:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e5d65c254bc4c4a87b42503633b0e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 1
+  value: 5
 --- !u!1001 &2032175975516391271
 PrefabInstance:
   m_ObjectHideFlags: 0

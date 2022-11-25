@@ -6,11 +6,17 @@ using UnityEngine;
 public class Loot : MonoBehaviour
 {
     public int value = 1;
+    public GameObject gameManager;
 
-    private void OnCollisionEnter(Collision collision)
+    private void Start()
+    {
+        gameManager = GameObject.Find("Game Manager");
+    }
+
+    private void OnTriggerEnter(Collider collision)
     {
         if (!collision.gameObject.CompareTag("Player")) return;
-        // Todo: Add loot to score
+        gameManager.GetComponent<GameManager>().AddGold(value);
         Destroy(gameObject);
     }
 }
