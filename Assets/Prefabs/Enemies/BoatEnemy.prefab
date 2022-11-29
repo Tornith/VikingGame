@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 1724047282442023019}
   - component: {fileID: 8340678366425400972}
   - component: {fileID: 803231741501940163}
+  - component: {fileID: 2461894294611039897}
   m_Layer: 12
   m_Name: BoatEnemy
   m_TagString: Untagged
@@ -287,3 +288,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   maxHealth: 20
+--- !u!114 &2461894294611039897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803231741501940164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12656bc5ea2a204a8608fc719458047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  distance: 150

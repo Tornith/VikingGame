@@ -8,10 +8,13 @@ namespace Enemy
         public GameObject projectilePrefab;
         public GameObject projectileHolder;
         public Transform firePoint;
+        
+        [Header("Projectiles")]
         public float projectileDamage = 1f;
         public float projectileSpeed = 10f;
         public float projectileSpread = 0.1f;
         public float projectileArch = 0.1f;
+        
         public float fireCooldown = 1f;
 
         protected float nextFire = 0f;

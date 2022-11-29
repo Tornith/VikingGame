@@ -8,6 +8,7 @@ TagManager:
   - Loot Holder
   - Projectile Holder
   - Enemy Holder
+  - Obstacle Holder
   layers:
   - Default
   - TransparentFX
