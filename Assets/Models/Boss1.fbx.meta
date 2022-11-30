@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 0dd979fd8b05eec44a333191bd3191ae
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 5210215807270620025
+    second: Hull|HullAction
+  - first:
+      74: 8981408715391870537
+    second: Hull|MastAction
+  - first:
+      74: 1845167750734631428
+    second: Hull|MastAction.001
+  - first:
+      74: -8803461624549587664
+    second: Hull|MastAction.002
+  - first:
+      74: 6088654972257008225
+    second: Hull|Sail HolderAction
+  - first:
+      74: -1626403941945609844
+    second: Hull|Sail HolderAction.001
+  - first:
+      74: -5315096989970710565
+    second: Hull|Sail HolderAction.002
+  - first:
+      74: 3284185369336764500
+    second: Hull|SailAction
+  - first:
+      74: -1763114973022465188
+    second: Hull|SailAction.001
+  - first:
+      74: 3283629116908017329
+    second: Hull|SailAction.002
+  - first:
+      74: -6708943932027002557
+    second: Mast|HullAction
+  - first:
+      74: 2338445888077864902
+    second: Mast|MastAction
+  - first:
+      74: 2909606528101402444
+    second: Mast|MastAction.001
+  - first:
+      74: 7102349679842843473
+    second: Mast|MastAction.002
+  - first:
+      74: 4273456785992847234
+    second: Mast|Sail HolderAction
+  - first:
+      74: 2214011048449879450
+    second: Mast|Sail HolderAction.001
+  - first:
+      74: -2955009316020794954
+    second: Mast|Sail HolderAction.002
+  - first:
+      74: -1365329614056296547
+    second: Mast|SailAction
+  - first:
+      74: -1813692687826402422
+    second: Mast|SailAction.001
+  - first:
+      74: 2470940497686384756
+    second: Mast|SailAction.002
+  - first:
+      74: -5270036222607098364
+    second: Sail|HullAction
+  - first:
+      74: 3766202864675090682
+    second: Sail|MastAction
+  - first:
+      74: -422548510552132656
+    second: Sail|MastAction.001
+  - first:
+      74: 8684699585118251693
+    second: Sail|MastAction.002
+  - first:
+      74: 5931777986105724496
+    second: Sail|Sail HolderAction
+  - first:
+      74: 4360622130834764006
+    second: Sail|Sail HolderAction.001
+  - first:
+      74: -3281370562635981049
+    second: Sail|Sail HolderAction.002
+  - first:
+      74: 2535425880036904549
+    second: Sail|SailAction
+  - first:
+      74: 4332525774829829119
+    second: Sail|SailAction.001
+  - first:
+      74: 7589133474733292195
+    second: Sail|SailAction.002
+  - first:
+      74: 393061108299431323
+    second: Sail Holder|HullAction
+  - first:
+      74: -7697016986711567796
+    second: Sail Holder|MastAction
+  - first:
+      74: -7806889452758202881
+    second: Sail Holder|MastAction.001
+  - first:
+      74: 4696015650908220576
+    second: Sail Holder|MastAction.002
+  - first:
+      74: -6407420805812719050
+    second: Sail Holder|Sail HolderAction
+  - first:
+      74: -8359911250541589732
+    second: Sail Holder|Sail HolderAction.001
+  - first:
+      74: 5885726959196330026
+    second: Sail Holder|Sail HolderAction.002
+  - first:
+      74: 2944798788081206542
+    second: Sail Holder|SailAction
+  - first:
+      74: -59630766557079608
+    second: Sail Holder|SailAction.001
+  - first:
+      74: 2779932046435372861
+    second: Sail Holder|SailAction.002
+  - first:
+      74: 6345921836541297110
+    second: Mast.001|HullAction
+  - first:
+      74: -1544291345612565513
+    second: Mast.001|MastAction
+  - first:
+      74: -8567564212526933612
+    second: Mast.001|MastAction.001
+  - first:
+      74: 7770252242734125447
+    second: Mast.001|MastAction.002
+  - first:
+      74: 5578109574321209765
+    second: Mast.001|Sail HolderAction
+  - first:
+      74: -5486240291356044155
+    second: Mast.001|Sail HolderAction.001
+  - first:
+      74: -7700094089798785491
+    second: Mast.001|Sail HolderAction.002
+  - first:
+      74: -4142115552575150769
+    second: Mast.001|SailAction
+  - first:
+      74: -8266641805738334976
+    second: Mast.001|SailAction.001
+  - first:
+      74: 1849951813253902303
+    second: Mast.001|SailAction.002
+  - first:
+      74: -9072293643400799732
+    second: Sail.001|HullAction
+  - first:
+      74: 3824876292231532236
+    second: Sail.001|MastAction
+  - first:
+      74: -6179260616920951726
+    second: Sail.001|MastAction.001
+  - first:
+      74: 6133771663938512620
+    second: Sail.001|MastAction.002
+  - first:
+      74: -7827189869406677528
+    second: Sail.001|Sail HolderAction
+  - first:
+      74: 6974527494234277928
+    second: Sail.001|Sail HolderAction.001
+  - first:
+      74: 2560005517079105119
+    second: Sail.001|Sail HolderAction.002
+  - first:
+      74: 1436729292483479564
+    second: Sail.001|SailAction
+  - first:
+      74: -5572560516954257921
+    second: Sail.001|SailAction.001
+  - first:
+      74: 7674729868836284689
+    second: Sail.001|SailAction.002
+  - first:
+      74: -5090106387205058058
+    second: Sail Holder.001|HullAction
+  - first:
+      74: -6348990010484940689
+    second: Sail Holder.001|MastAction
+  - first:
+      74: 8708034787281429556
+    second: Sail Holder.001|MastAction.001
+  - first:
+      74: 4905427390109598827
+    second: Sail Holder.001|MastAction.002
+  - first:
+      74: -2556147462992666167
+    second: Sail Holder.001|Sail HolderAction
+  - first:
+      74: 4107946213344641760
+    second: Sail Holder.001|Sail HolderAction.001
+  - first:
+      74: 8629528685869565518
+    second: Sail Holder.001|Sail HolderAction.002
+  - first:
+      74: 2833580877138539382
+    second: Sail Holder.001|SailAction
+  - first:
+      74: -166370572681203044
+    second: Sail Holder.001|SailAction.001
+  - first:
+      74: -8735920439609924525
+    second: Sail Holder.001|SailAction.002
+  - first:
+      74: -3372632312228583555
+    second: Mast.002|HullAction
+  - first:
+      74: 8485018550402005338
+    second: Mast.002|MastAction
+  - first:
+      74: -5612269856945598438
+    second: Mast.002|MastAction.001
+  - first:
+      74: 5405702137286844841
+    second: Mast.002|MastAction.002
+  - first:
+      74: -2773363429558420565
+    second: Mast.002|Sail HolderAction
+  - first:
+      74: 7037485678935214429
+    second: Mast.002|Sail HolderAction.001
+  - first:
+      74: 5529960452452390717
+    second: Mast.002|Sail HolderAction.002
+  - first:
+      74: 1315159231790075334
+    second: Mast.002|SailAction
+  - first:
+      74: 5109412503108052028
+    second: Mast.002|SailAction.001
+  - first:
+      74: -5841375128113463501
+    second: Mast.002|SailAction.002
+  - first:
+      74: 3939523353479360938
+    second: Sail.002|HullAction
+  - first:
+      74: 262043093284045348
+    second: Sail.002|MastAction
+  - first:
+      74: -5083701560289669178
+    second: Sail.002|MastAction.001
+  - first:
+      74: 3536089053169737614
+    second: Sail.002|MastAction.002
+  - first:
+      74: -427391640422819062
+    second: Sail.002|Sail HolderAction
+  - first:
+      74: -6904623050914213970
+    second: Sail.002|Sail HolderAction.001
+  - first:
+      74: -6354397434887645107
+    second: Sail.002|Sail HolderAction.002
+  - first:
+      74: -3997382567825955224
+    second: Sail.002|SailAction
+  - first:
+      74: -5679180438097882849
+    second: Sail.002|SailAction.001
+  - first:
+      74: 3087410598206639669
+    second: Sail.002|SailAction.002
+  - first:
+      74: 6335732133638228680
+    second: Sail Holder.002|HullAction
+  - first:
+      74: 54462332148676458
+    second: Sail Holder.002|MastAction
+  - first:
+      74: 5925853079342782010
+    second: Sail Holder.002|MastAction.001
+  - first:
+      74: 7652745396617745773
+    second: Sail Holder.002|MastAction.002
+  - first:
+      74: -3297974432579184662
+    second: Sail Holder.002|Sail HolderAction
+  - first:
+      74: 6856402660196386894
+    second: Sail Holder.002|Sail HolderAction.001
+  - first:
+      74: 3306958010169890175
+    second: Sail Holder.002|Sail HolderAction.002
+  - first:
+      74: 4053610251236382289
+    second: Sail Holder.002|SailAction
+  - first:
+      74: -5755114889580360782
+    second: Sail Holder.002|SailAction.001
+  - first:
+      74: -4263245257568979926
+    second: Sail Holder.002|SailAction.002
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

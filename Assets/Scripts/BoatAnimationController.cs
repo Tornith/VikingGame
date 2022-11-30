@@ -19,6 +19,7 @@ public class BoatAnimationController : MonoBehaviour
 
     private void Start()
     {
+        if (animator == null) return;
         _rb = GetComponent<Rigidbody>();
         _agent = GetComponent<BoatEnemy>();
         // Set both layers to active
@@ -28,6 +29,7 @@ public class BoatAnimationController : MonoBehaviour
     
     private void Update()
     {
+        if (animator == null) return;
         var forwardVelocity = Vector3.Dot(transform.forward, useAgent ? _agent.Velocity * 100 : _rb.velocity);
         var sidewaysVelocity = Vector3.Dot(transform.right, useAgent ? _agent.Velocity * 100 : _rb.velocity);
 

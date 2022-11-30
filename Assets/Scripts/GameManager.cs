@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int goldAmount;
+    public float timeElapsed;
+    public int bossesDefeated;
     
     public void AddGold(int amount)
     {
@@ -14,5 +17,15 @@ public class GameManager : MonoBehaviour
     public void RemoveGold(int amount)
     {
         goldAmount -= amount;
+    }
+
+    private void FixedUpdate()
+    {
+        timeElapsed += Time.deltaTime;
+    }
+    
+    public void BossDefeated()
+    {
+        bossesDefeated++;
     }
 }
