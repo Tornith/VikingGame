@@ -27,11 +27,14 @@ public class PlayerController : MonoBehaviour
     
     public float shipRollingSpeed = 10f;
     public float shipRollingAmount = 10f;
+    
+    private BoatAnimationController _boatAnimationController;
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
         _rb.centerOfMass = centerOfMass.transform.localPosition;
+        _boatAnimationController = GetComponent<BoatAnimationController>();
     }
 
     private void FixedUpdate()
@@ -52,16 +55,27 @@ public class PlayerController : MonoBehaviour
             // Slowly approach the max speed, with acceleration affecting how fast we get there. The closer we get to max speed, the slower we accelerate.
             // Use rigidbody forward vector to determine which direction we're moving in
             _thrust = _rb.transform.forward * (verticalInput * acceleration * (1 - _rb.velocity.magnitude / maxSpeed));
+            _boatAnimationController.isMoving = true;
         } else if (verticalInput < 0)
         {
             // If we're moving backwards, we decelerate at a different rate
             _thrust = _rb.transform.forward * (verticalInput * deceleration * (1 - _rb.velocity.magnitude / maxSpeed));
+            _boatAnimationController.isMoving = true;
+        }
+        else
+        {
+            _boatAnimationController.isMoving = false;
         }
 
         // If the player is rotating the ship we change the rotation velocity of the ship
         if (horizontalInput != 0)
         {
             _steerVelocity += horizontalInput * steerSpeed;
+            _boatAnimationController.isRotating = true;
+        }
+        else
+        {
+            _boatAnimationController.isRotating = false;
         }
         // Slowly decay the rotation velocity
         _steerVelocity *= 1 - steerDecay * Time.fixedDeltaTime;

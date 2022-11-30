@@ -21,6 +21,11 @@ namespace Enemy
         private Vector3 _agentNext;
         private bool _isMoving;
         private int _pathIter = 1;
+        
+        // A getter for velocity
+        [HideInInspector] public Vector3 Velocity => _agentVelocity;
+        
+        private BoatAnimationController _boatAnimationController;
 
 
         protected override void Start()
@@ -29,12 +34,15 @@ namespace Enemy
             agent.isStopped = true;
             _path = new NavMeshPath();
             _rigidbody = GetComponent<Rigidbody>();
+            _boatAnimationController = GetComponent<BoatAnimationController>();
         }
 
         private void FixedUpdate()
         {
             if (health.IsDead()) return;
 
+            _boatAnimationController.isMoving = _isMoving;
+            
             // If there is currently a path and the agent has moved far enough, update the path
             if (_path?.corners?.Length > 0 && Vector3.Distance(_path.corners[0], _agentPosition) > updateDistance)
             {
