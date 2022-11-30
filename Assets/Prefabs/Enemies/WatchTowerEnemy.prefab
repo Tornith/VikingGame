@@ -192,6 +192,12 @@ MonoBehaviour:
   - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
     weight: 0.25
     amount: 5
+  - prefab: {fileID: 2032175975831237741, guid: 6c3eaf8140ffafd439ef8f8b8f8bad09, type: 3}
+    weight: 0.15
+    amount: 3
+  - prefab: {fileID: 2032175975831237741, guid: 59f2a98776fa855498f558a6bf623b57, type: 3}
+    weight: 0.05
+    amount: 1
   lootHolder: {fileID: 0}
   lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: cf93db1c489b1694a8a40f699ea11e81, type: 3}

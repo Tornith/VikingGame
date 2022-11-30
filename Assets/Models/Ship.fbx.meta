@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 228a2acc12c5f4d4298ad9cea479947c
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -2219586888680451429
+    second: pCylinder3.001|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 6314524971836859916
+    second: pCylinder3.001|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: -9210475412821326905
+    second: pCylinder3.001|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -2826933595040162223
+    second: pCylinder3.001|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: 8243559284149407607
+    second: pCylinder3.001|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -2421783535306105506
+    second: pCylinder3.001|pCylinder3.001Action
+  - first:
+      74: 8168552107332323326
+    second: pCylinder3.001|pCylinder3.001Action.001
+  - first:
+      74: -6851537786910114220
+    second: pCylinder3.001|pCylinder3.001Action.002
+  - first:
+      74: -9047010673403838171
+    second: pCylinder3.001|pCylinder3.001Action.003
+  - first:
+      74: 5411161695973319828
+    second: pCylinder3.001|pCylinder3.001Action.004
+  - first:
+      74: -2771422047429529822
+    second: pCylinder3.001|pCylinder3.001Action.005
+  - first:
+      74: -3166829817994694102
+    second: pCylinder3.001|pCylinder3.001Action.006
+  - first:
+      74: -2298361655935912694
+    second: pCylinder3.001|pCylinder3.001Action.007
+  - first:
+      74: 1724474912775615616
+    second: pCylinder3.001|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: -9155287502047608272
+    second: pCylinder3.001|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: -8156313656494149474
+    second: pCylinder3.001|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 2564277280873558684
+    second: pCylinder3.002|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -8802003812321101262
+    second: pCylinder3.002|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: 2351616325281986191
+    second: pCylinder3.002|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -1053886339811580188
+    second: pCylinder3.002|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: -6476806023197929649
+    second: pCylinder3.002|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -3205385908168131827
+    second: pCylinder3.002|pCylinder3.001Action
+  - first:
+      74: 3795110205526132516
+    second: pCylinder3.002|pCylinder3.001Action.001
+  - first:
+      74: -7904390954256427008
+    second: pCylinder3.002|pCylinder3.001Action.002
+  - first:
+      74: 1555911698546378322
+    second: pCylinder3.002|pCylinder3.001Action.003
+  - first:
+      74: -7193811435342222315
+    second: pCylinder3.002|pCylinder3.001Action.004
+  - first:
+      74: 6651718733987291371
+    second: pCylinder3.002|pCylinder3.001Action.005
+  - first:
+      74: 2869708207589923553
+    second: pCylinder3.002|pCylinder3.001Action.006
+  - first:
+      74: 6963025762486934096
+    second: pCylinder3.002|pCylinder3.001Action.007
+  - first:
+      74: -1969784000863270385
+    second: pCylinder3.002|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: -1774430155137380719
+    second: pCylinder3.002|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: 7554525081129086213
+    second: pCylinder3.002|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 6334559137346360435
+    second: pCylinder3.003|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -5708996020142082754
+    second: pCylinder3.003|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: 5344295631624780964
+    second: pCylinder3.003|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -7864456159403364176
+    second: pCylinder3.003|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: 5880427704340549898
+    second: pCylinder3.003|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: 2671852993620359251
+    second: pCylinder3.003|pCylinder3.001Action
+  - first:
+      74: 5711296990318765510
+    second: pCylinder3.003|pCylinder3.001Action.001
+  - first:
+      74: 3877853680871368797
+    second: pCylinder3.003|pCylinder3.001Action.002
+  - first:
+      74: 97958473441101397
+    second: pCylinder3.003|pCylinder3.001Action.003
+  - first:
+      74: -5114202192901153371
+    second: pCylinder3.003|pCylinder3.001Action.004
+  - first:
+      74: 2229862549306140176
+    second: pCylinder3.003|pCylinder3.001Action.005
+  - first:
+      74: 5742031191166446739
+    second: pCylinder3.003|pCylinder3.001Action.006
+  - first:
+      74: -7676909376953942011
+    second: pCylinder3.003|pCylinder3.001Action.007
+  - first:
+      74: -8971666586114838576
+    second: pCylinder3.003|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: 9124839887816787317
+    second: pCylinder3.003|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: -5196262784204424151
+    second: pCylinder3.003|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 7315239293304412730
+    second: pCylinder3.004|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 4202152044789084280
+    second: pCylinder3.004|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: -1218527321806167600
+    second: pCylinder3.004|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -3184016577355142847
+    second: pCylinder3.004|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: 874787142373396435
+    second: pCylinder3.004|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -243120354231602826
+    second: pCylinder3.004|pCylinder3.001Action
+  - first:
+      74: 3202887522330768913
+    second: pCylinder3.004|pCylinder3.001Action.001
+  - first:
+      74: -5825219071482653011
+    second: pCylinder3.004|pCylinder3.001Action.002
+  - first:
+      74: -1110220028170964844
+    second: pCylinder3.004|pCylinder3.001Action.003
+  - first:
+      74: -8790176050513659452
+    second: pCylinder3.004|pCylinder3.001Action.004
+  - first:
+      74: 6388404466037635373
+    second: pCylinder3.004|pCylinder3.001Action.005
+  - first:
+      74: 3256709853359085653
+    second: pCylinder3.004|pCylinder3.001Action.006
+  - first:
+      74: -6425676254835411974
+    second: pCylinder3.004|pCylinder3.001Action.007
+  - first:
+      74: -5016143828708548765
+    second: pCylinder3.004|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: 276304509563618440
+    second: pCylinder3.004|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: 6439137975378263378
+    second: pCylinder3.004|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 3268197945295105930
+    second: Paddle1|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -8661912139627873555
+    second: Paddle1|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: -3031392304724464167
+    second: Paddle1|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 2904731654261786420
+    second: Paddle1|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: 2285467664635915132
+    second: Paddle1|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -1124488021479245305
+    second: Paddle1|pCylinder3.001Action.007
+  - first:
+      74: -5404958419657054063
+    second: Paddle1|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: 583286519898714019
+    second: Paddle1|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: 2478180788943516536
+    second: Paddle1|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 4707181920005065692
+    second: Paddle2|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -7888201407474598731
+    second: Paddle2|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: 7847980711473093212
+    second: Paddle2|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 2556554175373726920
+    second: Paddle2|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: -7348226030239014831
+    second: Paddle2|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -7770742567165627378
+    second: Paddle2|pCylinder3.001Action.007
+  - first:
+      74: 4514201409387073262
+    second: Paddle2|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: -1660733298490750629
+    second: Paddle2|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: -1979008542038738525
+    second: Paddle2|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 5309228775906433979
+    second: Paddle3|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: -2692388763589614887
+    second: Paddle3|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: -7724177853127649831
+    second: Paddle3|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 621269704747270247
+    second: Paddle3|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: -8793804308536126165
+    second: Paddle3|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: 1920608030797473312
+    second: Paddle3|pCylinder3.001Action.007
+  - first:
+      74: -7083211092080003570
+    second: Paddle3|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: 3376719248066483196
+    second: Paddle3|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: 5177660617151185653
+    second: Paddle3|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: 3653283171907993833
+    second: Paddle4|paddle:pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 1145709688874498541
+    second: Paddle4|pCylinder1.001|Take 001|BaseLayer
+  - first:
+      74: 3152522337767366851
+    second: Paddle4|pCylinder1|Take 001|BaseLayer
+  - first:
+      74: 4120383973151125583
+    second: Paddle4|pCylinder2.001|Take 001|BaseLayer
+  - first:
+      74: -8829196945924027099
+    second: Paddle4|pCylinder2|Take 001|BaseLayer
+  - first:
+      74: -3411468521070572325
+    second: Paddle4|pCylinder3.001Action.007
+  - first:
+      74: 8520151146042063321
+    second: Paddle4|pCylinder3.001|Take 001|BaseLayer
+  - first:
+      74: -941291011756153366
+    second: Paddle4|pCylinder3|Take 001|BaseLayer
+  - first:
+      74: 818613067075984067
+    second: Paddle4|pCylinder4|Take 001|BaseLayer
+  - first:
+      74: -7484939812528331851
+    second: Paddle1|Paddle
+  - first:
+      74: -8666064330800710612
+    second: Paddle2|Paddle
+  - first:
+      74: -3818439421846516651
+    second: Paddle3|Paddle
+  - first:
+      74: -8876739288056020949
+    second: Paddle4|Paddle
+  - first:
+      74: -623603649343465320
+    second: Scene
+  - first:
+      74: -7962633411891379389
+    second: Armature|Paddle
+  - first:
+      74: 892917480129988227
+    second: Paddle.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Paddle
+      takeName: Armature|Paddle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1.5
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
