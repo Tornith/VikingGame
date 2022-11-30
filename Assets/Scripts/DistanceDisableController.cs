@@ -21,6 +21,11 @@ public class DistanceDisableController : MonoBehaviour
     {
         foreach (var obj in _objectsToDisable)
         {
+            if (obj.gameObject == null)
+            {
+                _objectsToDisable.Remove(obj);
+                break;
+            }
             obj.gameObject.SetActive(Vector3.Distance(transform.position, obj.gameObject.transform.position) < obj.distance);
         }
     }
