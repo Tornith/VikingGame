@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magnet: {fileID: 84546528181157813, guid: aa297c486de00c549bcce8f9bab1c54e, type: 3}
   magnetForce: 15
-  magnetRange: 15
+  magnetRange: 45
 --- !u!114 &3912919169063295
 MonoBehaviour:
   m_ObjectHideFlags: 0

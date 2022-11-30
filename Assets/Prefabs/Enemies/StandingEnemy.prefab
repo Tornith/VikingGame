@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 8517051533180993234}
   m_Layer: 12
   m_Name: StandingEnemy
-  m_TagString: Untagged
+  m_TagString: Standing Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 9214089949663600595, guid: a6cff558fe35b454b8999b1dd0b68338, type: 3}
   projectileHolder: {fileID: 0}
   firePoint: {fileID: 2074097694276340034}
-  projectileDamage: 1
+  projectileDamage: 0.5
   projectileSpeed: 30
   projectileSpread: 1
   projectileArch: 2
@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   distance: 150
+  keepPhysics: 1
 --- !u!1001 &1682724804309039877
 PrefabInstance:
   m_ObjectHideFlags: 0

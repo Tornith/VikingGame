@@ -9,6 +9,8 @@ TagManager:
   - Projectile Holder
   - Enemy Holder
   - Obstacle Holder
+  - Boat Enemy
+  - Standing Enemy
   layers:
   - Default
   - TransparentFX
