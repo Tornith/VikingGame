@@ -8,11 +8,13 @@ public class DeathMenu : MonoBehaviour
 {
     public GameObject deathMenuUI;
     public GameObject player;
-
+    private LevelLoader _levelLoader;
+    
     private void Start()
     {
         deathMenuUI.SetActive(false);
         player = GameObject.FindGameObjectWithTag("Player");
+        _levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
     }
 
     public void Update()
@@ -25,6 +27,6 @@ public class DeathMenu : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        _levelLoader.LoadLevelByName("MainMenu");
     }
 }

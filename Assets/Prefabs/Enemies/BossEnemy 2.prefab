@@ -96,7 +96,7 @@ Transform:
   m_GameObject: {fileID: 803231741501940164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 457.93, y: 1.73, z: 534.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 803231740502967649}
@@ -188,18 +188,9 @@ MonoBehaviour:
   wanderDistance: 0
   player: {fileID: 0}
   lootTable:
-  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
-    weight: 0.75
-    amount: 2
-  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
-    weight: 0.25
-    amount: 3
-  - prefab: {fileID: 2032175975831237741, guid: 6c3eaf8140ffafd439ef8f8b8f8bad09, type: 3}
-    weight: 0.15
-    amount: 2
   - prefab: {fileID: 2032175975831237741, guid: 59f2a98776fa855498f558a6bf623b57, type: 3}
-    weight: 0.05
-    amount: 1
+    weight: 1
+    amount: 2
   lootHolder: {fileID: 0}
   lootSpawnSpeed: 1
   projectilePrefab: {fileID: 9214089949663600595, guid: cf93db1c489b1694a8a40f699ea11e81, type: 3}
@@ -225,8 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15b83cd1fe9d434f907e34f43ad6153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
-  maxHealth: 200
+  health: 100
+  maxHealth: 100
 --- !u!114 &2461894294611039897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,6 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   bossHealthText: {fileID: 0}
+  artifactRetrievedGUI: {fileID: 0}
 --- !u!1001 &5361585896325367251
 PrefabInstance:
   m_ObjectHideFlags: 0

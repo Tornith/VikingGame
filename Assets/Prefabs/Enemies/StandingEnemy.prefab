@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8edaf789a0f306543896456e9c1f0b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewDistance: 40
-  attackDistance: 27.5
+  viewDistance: 60
+  attackDistance: 35
   wanderDistance: 10
   player: {fileID: 0}
   lootTable:

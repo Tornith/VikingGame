@@ -63,7 +63,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7206303111469443082}
-  m_LocalRotation: {x: -0, y: -0.84838384, z: -0, w: -0.52938163}
+  m_LocalRotation: {x: -0, y: -0.8483856, z: 0, w: -0.5293789}
   m_LocalPosition: {x: 82.306725, y: 1, z: 939.0414}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
@@ -157,30 +157,21 @@ MonoBehaviour:
   wanderDistance: 0
   player: {fileID: 0}
   lootTable:
-  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
-    weight: 0.75
-    amount: 2
-  - prefab: {fileID: 2032175975831237741, guid: 8089270114f590e4fba5e6e3ae686025, type: 3}
-    weight: 0.25
-    amount: 3
-  - prefab: {fileID: 2032175975831237741, guid: 6c3eaf8140ffafd439ef8f8b8f8bad09, type: 3}
-    weight: 0.15
-    amount: 2
   - prefab: {fileID: 2032175975831237741, guid: 59f2a98776fa855498f558a6bf623b57, type: 3}
-    weight: 0.05
-    amount: 1
+    weight: 1
+    amount: 2
   lootHolder: {fileID: 0}
   lootSpawnSpeed: 1
-  projectilePrefab: {fileID: 9214089949663600595, guid: a6cff558fe35b454b8999b1dd0b68338, type: 3}
+  projectilePrefab: {fileID: 9214089949663600595, guid: cf93db1c489b1694a8a40f699ea11e81, type: 3}
   projectileHolder: {fileID: 0}
   firePoint: {fileID: 7206303110323014831}
-  projectileDamage: 1.5
-  projectileSpeed: 55
-  projectileSpread: 0
+  projectileDamage: 0.5
+  projectileSpeed: 40
+  projectileSpread: 2
   projectileArch: 3
-  fireCooldown: 5
-  projectileAmount: 3
-  projectileTimeSpread: 1
+  fireCooldown: 1.5
+  projectileAmount: 6
+  projectileTimeSpread: 0.1
   updateDistance: 2
 --- !u!114 &7206303111469443085
 MonoBehaviour:
