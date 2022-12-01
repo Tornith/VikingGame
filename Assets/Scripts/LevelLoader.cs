@@ -15,6 +15,7 @@ public class LevelLoader : MonoBehaviour
     {
         // Enable the crossfade gameobject
         crossfade.gameObject.SetActive(true);
+        Time.timeScale = 1f;
     }
 
     private void Update()
@@ -32,6 +33,7 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadLevelByName(string levelToLoad)
     {
+        Time.timeScale = 1f;
         StartCoroutine(LoadLevel(levelToLoad));
     }
 

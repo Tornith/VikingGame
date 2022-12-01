@@ -21,7 +21,8 @@ public class DeathMenu : MonoBehaviour
     {
         if (!(player.GetComponent<Health>().health <= 0)) return;
         deathMenuUI.SetActive(true);
-        Time.timeScale = 0f;
+        
+        Time.timeScale = 0.25f;
     }
 
     public void LoadMenu()

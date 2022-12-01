@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 7240.631, g: 4510.3867, b: 3169, a: 1}
+  m_IndirectSpecularColor: {r: 7008.949, g: 4430, b: 3298.8281, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5861,6 +5861,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
   m_PrefabInstance: {fileID: 624797894}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &639760151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1727020406, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
+  m_PrefabInstance: {fileID: 7547267489369931327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25371889d4e7dc14ca2ade311aaab26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &641349180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20429,6 +20440,14 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 2033278395398403355}
+    - target: {fileID: 7776997384283164795, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 639760151}
+    - target: {fileID: 7776997384283164795, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DeathMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2ac6256a8e7f740832e31aa476098e, type: 3}
 --- !u!114 &7547267489369931328 stripped

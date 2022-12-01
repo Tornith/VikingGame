@@ -39,7 +39,8 @@ public class WinZone : MonoBehaviour
             finalGold.text = "Gold collected: " + _gameManager.goldAmount;
             finalTime.text = "Time taken: " + FormatTime(_gameManager.timeElapsed);
             
-            Time.timeScale = 0;
+            
+            Time.timeScale = 0.25f;
         }
     }
 
