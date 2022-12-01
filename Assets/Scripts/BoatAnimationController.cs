@@ -10,6 +10,8 @@ public class BoatAnimationController : MonoBehaviour
     public bool isMoving;
     public bool isRotating;
     public bool useAgent;
+    public OarAudioController oarAudioController;
+    public float audioDistanceTrigger = 10f;
     
     private Rigidbody _rb;
     private BoatEnemy _agent;
@@ -17,6 +19,8 @@ public class BoatAnimationController : MonoBehaviour
     private static readonly int RightSpeed = Animator.StringToHash("RightSpeed");
     private static readonly int IsMoving = Animator.StringToHash("IsMoving");
 
+    private Vector3 _lastPosition;
+    
     private void Start()
     {
         if (animator == null) return;
@@ -46,6 +50,18 @@ public class BoatAnimationController : MonoBehaviour
             animator.SetFloat(RightSpeed, forwardVelocity);
 
             animator.SetBool(IsMoving, isMoving);
+        }
+        
+        // Play oar audio when the last position is at least 10 units away from the current position
+        if (oarAudioController == null) return;
+        if (isMoving && Vector3.Distance(_lastPosition, transform.position) > audioDistanceTrigger)
+        {
+            oarAudioController.PlayAllOarSounds();
+            _lastPosition = transform.position;
+        }
+        if (!isMoving)
+        {
+            _lastPosition = transform.position;
         }
     }
 }

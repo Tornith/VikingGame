@@ -6,6 +6,8 @@ public class FadeInFadeOut : MonoBehaviour
     public GameObject obj;
     public float fadeSpeed = 1.5f;
     public float wait = 1.0f;
+    
+    public AudioSource audioSource;
 
     private bool _isFading = false;
     private bool _isWaiting = false;
@@ -15,12 +17,14 @@ public class FadeInFadeOut : MonoBehaviour
     private CanvasGroup _canvasGroup;
     
     private float _timer = 0.0f;
+    private bool playedAudio = false;
     
     private void Start()
     {
         obj.SetActive(false);
         _canvasGroup = obj.GetComponent<CanvasGroup>();
         _canvasGroup.alpha = 0.0f;
+        playedAudio = false;
     }
 
     private void Update()
@@ -29,7 +33,14 @@ public class FadeInFadeOut : MonoBehaviour
         {
             _timer = 0.0f;
             _alpha = 0.0f;
+            playedAudio = false;
             return;
+        }
+
+        if (!playedAudio)
+        {
+            audioSource.Play();
+            playedAudio = true;
         }
         _canvasGroup.alpha = _alpha;
         if (!_isFadingOut && !_isWaiting)
